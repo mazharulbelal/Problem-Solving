@@ -1,9 +1,3 @@
-//
-//  main.c
-//  BinaryToDecimal
-//
-//  Created by Ayat on 26/3/25.
-//
 
 #include <stdio.h>
 
@@ -12,7 +6,7 @@ int main(int argc, const char * argv[]) {
     int binaryNumbers[32];
     int count = 0;
     
-    printf("Binary Digit:");
+    printf("Decimal Digit: ");
     scanf("%d", &decimalNumber);
     
     if (decimalNumber == 0) {
@@ -28,7 +22,7 @@ int main(int argc, const char * argv[]) {
         
     }
     
-    printf("Binary Numbers:");
+    printf("Binary Numbers: ");
     for(int i = count - 1; i >=0 ; i--) {
         printf("%d", binaryNumbers[i]);
     }

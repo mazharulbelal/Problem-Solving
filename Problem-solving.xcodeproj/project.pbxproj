@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8A6031422D940C9C0072FE9F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A6031412D940C9C0072FE9F /* main.c */; };
+		8A9A25D52D943BCF0056BA18 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A25D42D943BCF0056BA18 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8A60313D2D940C9C0072FE9F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8A9A25D02D943BCF0056BA18 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -34,11 +44,20 @@
 /* Begin PBXFileReference section */
 		8A60313F2D940C9C0072FE9F /* BinaryToDecimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryToDecimal; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6031412D940C9C0072FE9F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8A9A25D22D943BCF0056BA18 /* Binary To Decimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary To Decimal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9A25D42D943BCF0056BA18 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8AA2ADB12D940BD100CDCECC /* Problem-solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem-solving"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8A60313C2D940C9C0072FE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9A25CF2D943BCF0056BA18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,18 +74,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8A6031402D940C9C0072FE9F /* BinaryToDecimal */ = {
+		8A6031402D940C9C0072FE9F /* DecimalToBinary */ = {
 			isa = PBXGroup;
 			children = (
 				8A6031412D940C9C0072FE9F /* main.c */,
 			);
-			path = BinaryToDecimal;
+			path = DecimalToBinary;
+			sourceTree = "<group>";
+		};
+		8A9A25D32D943BCF0056BA18 /* Binary To Decimal */ = {
+			isa = PBXGroup;
+			children = (
+				8A9A25D42D943BCF0056BA18 /* main.c */,
+			);
+			path = "Binary To Decimal";
 			sourceTree = "<group>";
 		};
 		8AA2ADA82D940BD100CDCECC = {
 			isa = PBXGroup;
 			children = (
-				8A6031402D940C9C0072FE9F /* BinaryToDecimal */,
+				8A6031402D940C9C0072FE9F /* DecimalToBinary */,
+				8A9A25D32D943BCF0056BA18 /* Binary To Decimal */,
 				8AA2ADB22D940BD100CDCECC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +104,7 @@
 			children = (
 				8AA2ADB12D940BD100CDCECC /* Problem-solving */,
 				8A60313F2D940C9C0072FE9F /* BinaryToDecimal */,
+				8A9A25D22D943BCF0056BA18 /* Binary To Decimal */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +127,23 @@
 			name = BinaryToDecimal;
 			productName = BinaryToDecimal;
 			productReference = 8A60313F2D940C9C0072FE9F /* BinaryToDecimal */;
+			productType = "com.apple.product-type.tool";
+		};
+		8A9A25D12D943BCF0056BA18 /* Binary To Decimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A9A25D82D943BCF0056BA18 /* Build configuration list for PBXNativeTarget "Binary To Decimal" */;
+			buildPhases = (
+				8A9A25CE2D943BCF0056BA18 /* Sources */,
+				8A9A25CF2D943BCF0056BA18 /* Frameworks */,
+				8A9A25D02D943BCF0056BA18 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Binary To Decimal";
+			productName = "Binary To Decimal";
+			productReference = 8A9A25D22D943BCF0056BA18 /* Binary To Decimal */;
 			productType = "com.apple.product-type.tool";
 		};
 		8AA2ADB02D940BD100CDCECC /* Problem-solving */ = {
@@ -129,6 +175,9 @@
 					8A60313E2D940C9C0072FE9F = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
+					8A9A25D12D943BCF0056BA18 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 					8AA2ADB02D940BD100CDCECC = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -149,6 +198,7 @@
 			targets = (
 				8AA2ADB02D940BD100CDCECC /* Problem-solving */,
 				8A60313E2D940C9C0072FE9F /* BinaryToDecimal */,
+				8A9A25D12D943BCF0056BA18 /* Binary To Decimal */,
 			);
 		};
 /* End PBXProject section */
@@ -159,6 +209,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A6031422D940C9C0072FE9F /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9A25CE2D943BCF0056BA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9A25D52D943BCF0056BA18 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +239,22 @@
 			name = Debug;
 		};
 		8A6031452D940C9C0072FE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A9A25D62D943BCF0056BA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A9A25D72D943BCF0056BA18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -327,6 +401,15 @@
 			buildConfigurations = (
 				8A6031442D940C9C0072FE9F /* Debug */,
 				8A6031452D940C9C0072FE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A9A25D82D943BCF0056BA18 /* Build configuration list for PBXNativeTarget "Binary To Decimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9A25D62D943BCF0056BA18 /* Debug */,
+				8A9A25D72D943BCF0056BA18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
