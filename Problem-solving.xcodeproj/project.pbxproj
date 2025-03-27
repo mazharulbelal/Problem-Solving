@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8A6031422D940C9C0072FE9F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A6031412D940C9C0072FE9F /* main.c */; };
 		8A9A25D52D943BCF0056BA18 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A25D42D943BCF0056BA18 /* main.c */; };
+		8A9BDA622D94DEB3006D5B57 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BDA612D94DEB3006D5B57 /* main.c */; };
+		8A9D2A1D2D95A1070025260B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9D2A1C2D95A1070025260B /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,6 +24,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8A9A25D02D943BCF0056BA18 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8A9BDA5D2D94DEB3006D5B57 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8A9D2A182D95A1070025260B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -46,6 +66,10 @@
 		8A6031412D940C9C0072FE9F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8A9A25D22D943BCF0056BA18 /* Binary To Decimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary To Decimal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9A25D42D943BCF0056BA18 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8A9BDA5F2D94DEB3006D5B57 /* ReverseNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReverseNumber; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9BDA612D94DEB3006D5B57 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8A9D2A1A2D95A1070025260B /* Prime Number Check */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Prime Number Check"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9D2A1C2D95A1070025260B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8AA2ADB12D940BD100CDCECC /* Problem-solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem-solving"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -58,6 +82,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8A9A25CF2D943BCF0056BA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9BDA5C2D94DEB3006D5B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9D2A172D95A1070025260B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,11 +128,29 @@
 			path = "Binary To Decimal";
 			sourceTree = "<group>";
 		};
+		8A9BDA602D94DEB3006D5B57 /* ReverseNumber */ = {
+			isa = PBXGroup;
+			children = (
+				8A9BDA612D94DEB3006D5B57 /* main.c */,
+			);
+			path = ReverseNumber;
+			sourceTree = "<group>";
+		};
+		8A9D2A1B2D95A1070025260B /* Prime Number Check */ = {
+			isa = PBXGroup;
+			children = (
+				8A9D2A1C2D95A1070025260B /* main.c */,
+			);
+			path = "Prime Number Check";
+			sourceTree = "<group>";
+		};
 		8AA2ADA82D940BD100CDCECC = {
 			isa = PBXGroup;
 			children = (
 				8A6031402D940C9C0072FE9F /* DecimalToBinary */,
 				8A9A25D32D943BCF0056BA18 /* Binary To Decimal */,
+				8A9BDA602D94DEB3006D5B57 /* ReverseNumber */,
+				8A9D2A1B2D95A1070025260B /* Prime Number Check */,
 				8AA2ADB22D940BD100CDCECC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +161,8 @@
 				8AA2ADB12D940BD100CDCECC /* Problem-solving */,
 				8A60313F2D940C9C0072FE9F /* BinaryToDecimal */,
 				8A9A25D22D943BCF0056BA18 /* Binary To Decimal */,
+				8A9BDA5F2D94DEB3006D5B57 /* ReverseNumber */,
+				8A9D2A1A2D95A1070025260B /* Prime Number Check */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,6 +204,40 @@
 			productReference = 8A9A25D22D943BCF0056BA18 /* Binary To Decimal */;
 			productType = "com.apple.product-type.tool";
 		};
+		8A9BDA5E2D94DEB3006D5B57 /* ReverseNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A9BDA652D94DEB3006D5B57 /* Build configuration list for PBXNativeTarget "ReverseNumber" */;
+			buildPhases = (
+				8A9BDA5B2D94DEB3006D5B57 /* Sources */,
+				8A9BDA5C2D94DEB3006D5B57 /* Frameworks */,
+				8A9BDA5D2D94DEB3006D5B57 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverseNumber;
+			productName = ReverseNumber;
+			productReference = 8A9BDA5F2D94DEB3006D5B57 /* ReverseNumber */;
+			productType = "com.apple.product-type.tool";
+		};
+		8A9D2A192D95A1070025260B /* Prime Number Check */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A9D2A202D95A1070025260B /* Build configuration list for PBXNativeTarget "Prime Number Check" */;
+			buildPhases = (
+				8A9D2A162D95A1070025260B /* Sources */,
+				8A9D2A172D95A1070025260B /* Frameworks */,
+				8A9D2A182D95A1070025260B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prime Number Check";
+			productName = "Prime Number Check";
+			productReference = 8A9D2A1A2D95A1070025260B /* Prime Number Check */;
+			productType = "com.apple.product-type.tool";
+		};
 		8AA2ADB02D940BD100CDCECC /* Problem-solving */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AA2ADB82D940BD100CDCECC /* Build configuration list for PBXNativeTarget "Problem-solving" */;
@@ -178,6 +270,12 @@
 					8A9A25D12D943BCF0056BA18 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
+					8A9BDA5E2D94DEB3006D5B57 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8A9D2A192D95A1070025260B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 					8AA2ADB02D940BD100CDCECC = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -199,6 +297,8 @@
 				8AA2ADB02D940BD100CDCECC /* Problem-solving */,
 				8A60313E2D940C9C0072FE9F /* BinaryToDecimal */,
 				8A9A25D12D943BCF0056BA18 /* Binary To Decimal */,
+				8A9BDA5E2D94DEB3006D5B57 /* ReverseNumber */,
+				8A9D2A192D95A1070025260B /* Prime Number Check */,
 			);
 		};
 /* End PBXProject section */
@@ -217,6 +317,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9A25D52D943BCF0056BA18 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9BDA5B2D94DEB3006D5B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9BDA622D94DEB3006D5B57 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9D2A162D95A1070025260B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9D2A1D2D95A1070025260B /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +371,38 @@
 			name = Debug;
 		};
 		8A9A25D72D943BCF0056BA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A9BDA632D94DEB3006D5B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A9BDA642D94DEB3006D5B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A9D2A1E2D95A1070025260B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A9D2A1F2D95A1070025260B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -410,6 +558,24 @@
 			buildConfigurations = (
 				8A9A25D62D943BCF0056BA18 /* Debug */,
 				8A9A25D72D943BCF0056BA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A9BDA652D94DEB3006D5B57 /* Build configuration list for PBXNativeTarget "ReverseNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9BDA632D94DEB3006D5B57 /* Debug */,
+				8A9BDA642D94DEB3006D5B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A9D2A202D95A1070025260B /* Build configuration list for PBXNativeTarget "Prime Number Check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9D2A1E2D95A1070025260B /* Debug */,
+				8A9D2A1F2D95A1070025260B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
