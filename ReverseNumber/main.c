@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
+int main() {
     int x = 1234567890 ;
     int number = 0;
     while(x != 0) {
