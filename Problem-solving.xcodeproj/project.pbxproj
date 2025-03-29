@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A6031422D940C9C0072FE9F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A6031412D940C9C0072FE9F /* main.c */; };
 		8A97BD652D974B5A00EA5510 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A97BD642D974B5A00EA5510 /* main.c */; };
+		8A980EAD2D97609F00BFFBB2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A980EAC2D97609F00BFFBB2 /* main.c */; };
 		8A9A25D52D943BCF0056BA18 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A25D42D943BCF0056BA18 /* main.c */; };
 		8A9BDA622D94DEB3006D5B57 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BDA612D94DEB3006D5B57 /* main.c */; };
 		8A9D2A1D2D95A1070025260B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9D2A1C2D95A1070025260B /* main.c */; };
@@ -27,6 +28,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8A97BD602D974B5A00EA5510 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8A980EA82D97609F00BFFBB2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -87,6 +97,8 @@
 		8A6031412D940C9C0072FE9F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8A97BD622D974B5A00EA5510 /* GCD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GCD; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A97BD642D974B5A00EA5510 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8A980EAA2D97609F00BFFBB2 /* Sieve of Eratosthenes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sieve of Eratosthenes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A980EAC2D97609F00BFFBB2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8A9A25D22D943BCF0056BA18 /* Binary To Decimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary To Decimal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9A25D42D943BCF0056BA18 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8A9BDA5F2D94DEB3006D5B57 /* ReverseNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReverseNumber; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +120,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8A97BD5F2D974B5A00EA5510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A980EA72D97609F00BFFBB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -168,6 +187,14 @@
 			path = GCD;
 			sourceTree = "<group>";
 		};
+		8A980EAB2D97609F00BFFBB2 /* Sieve of Eratosthenes */ = {
+			isa = PBXGroup;
+			children = (
+				8A980EAC2D97609F00BFFBB2 /* main.c */,
+			);
+			path = "Sieve of Eratosthenes";
+			sourceTree = "<group>";
+		};
 		8A9A25D32D943BCF0056BA18 /* Binary To Decimal */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +237,7 @@
 				8A9D2A1B2D95A1070025260B /* Prime Number Check */,
 				8A9E81042D9665290012840E /* Roman To Integer */,
 				8A97BD632D974B5A00EA5510 /* GCD */,
+				8A980EAB2D97609F00BFFBB2 /* Sieve of Eratosthenes */,
 				8AA2ADB22D940BD100CDCECC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -224,6 +252,7 @@
 				8A9D2A1A2D95A1070025260B /* Prime Number Check */,
 				8A9E81032D9665290012840E /* Roman To Integer */,
 				8A97BD622D974B5A00EA5510 /* GCD */,
+				8A980EAA2D97609F00BFFBB2 /* Sieve of Eratosthenes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,6 +292,23 @@
 			name = GCD;
 			productName = GCD;
 			productReference = 8A97BD622D974B5A00EA5510 /* GCD */;
+			productType = "com.apple.product-type.tool";
+		};
+		8A980EA92D97609F00BFFBB2 /* Sieve of Eratosthenes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A980EB02D97609F00BFFBB2 /* Build configuration list for PBXNativeTarget "Sieve of Eratosthenes" */;
+			buildPhases = (
+				8A980EA62D97609F00BFFBB2 /* Sources */,
+				8A980EA72D97609F00BFFBB2 /* Frameworks */,
+				8A980EA82D97609F00BFFBB2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sieve of Eratosthenes";
+			productName = "Sieve of Eratosthenes";
+			productReference = 8A980EAA2D97609F00BFFBB2 /* Sieve of Eratosthenes */;
 			productType = "com.apple.product-type.tool";
 		};
 		8A9A25D12D943BCF0056BA18 /* Binary To Decimal */ = {
@@ -365,6 +411,9 @@
 					8A97BD612D974B5A00EA5510 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
+					8A980EA92D97609F00BFFBB2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 					8A9A25D12D943BCF0056BA18 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -402,6 +451,7 @@
 				8A9D2A192D95A1070025260B /* Prime Number Check */,
 				8A9E81022D9665290012840E /* Roman To Integer */,
 				8A97BD612D974B5A00EA5510 /* GCD */,
+				8A980EA92D97609F00BFFBB2 /* Sieve of Eratosthenes */,
 			);
 		};
 /* End PBXProject section */
@@ -420,6 +470,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A97BD652D974B5A00EA5510 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A980EA62D97609F00BFFBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A980EAD2D97609F00BFFBB2 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +549,22 @@
 			name = Debug;
 		};
 		8A97BD672D974B5A00EA5510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A980EAE2D97609F00BFFBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A980EAF2D97609F00BFFBB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -710,6 +784,15 @@
 			buildConfigurations = (
 				8A97BD662D974B5A00EA5510 /* Debug */,
 				8A97BD672D974B5A00EA5510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A980EB02D97609F00BFFBB2 /* Build configuration list for PBXNativeTarget "Sieve of Eratosthenes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A980EAE2D97609F00BFFBB2 /* Debug */,
+				8A980EAF2D97609F00BFFBB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
