@@ -18,14 +18,13 @@ int main(int argc, const char * argv[]) {
         printf("%d\t\t", numbers[i]);
     }
     
-    printf("\n\n\nAfter Divisor\n\n\n");
-    for (int i = 2; i<=100; i++) {
+    printf("\n\n\nPrime Numbers\n\n\n");
+    for (int i = 2; i * i <=100; i++) {
         if (numbers[i] != 0) {
-            for (int j = i + 1; j<=100; j++) {
-                if (numbers[j] % i == 0) {
+            for (int j = i * i; j<=100; j = j + i) {
                     numbers[j] = 0 ;
                 }
-            }
+            
         }
     }
     
