@@ -18,6 +18,7 @@
 		8A9D2A1D2D95A1070025260B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9D2A1C2D95A1070025260B /* main.c */; };
 		8A9E81062D9665290012840E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E81052D9665290012840E /* main.c */; };
 		8A9E810C2D96BD6B0012840E /* Leetcode Solution.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E810B2D96BD6B0012840E /* Leetcode Solution.c */; };
+		8AB4B5DD2D9B55F80051D6DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4B5DC2D9B55F80051D6DA /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -111,6 +112,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8AB4B5CD2D9B537D0051D6DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8AB4B5D82D9B55F70051D6DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -136,6 +155,9 @@
 		8A9E81052D9665290012840E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8A9E810B2D96BD6B0012840E /* Leetcode Solution.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Leetcode Solution.c"; sourceTree = "<group>"; };
 		8AA2ADB12D940BD100CDCECC /* Problem-solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem-solving"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB4B5CF2D9B537D0051D6DA /* Assiut University Training - Newcomers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assiut University Training - Newcomers"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB4B5DA2D9B55F70051D6DA /* Assiut University Training - Newcomers C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assiut University Training - Newcomers C++"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB4B5DC2D9B55F80051D6DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +225,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8AA2ADAE2D940BD100CDCECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB4B5CC2D9B537D0051D6DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB4B5D72D9B55F70051D6DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,6 +335,7 @@
 				8A980EAB2D97609F00BFFBB2 /* Sieve of Eratosthenes */,
 				8A980EB62D97C2ED00BFFBB2 /* Integer To Roman */,
 				8A9688C42D9ABFDF00B3B049 /* Even Or Odd */,
+				8AB4B5DB2D9B55F80051D6DA /* Assiut University Training - Newcomers C++ */,
 				8AA2ADB22D940BD100CDCECC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -316,8 +353,18 @@
 				8A980EAA2D97609F00BFFBB2 /* Sieve of Eratosthenes */,
 				8A980EB52D97C2ED00BFFBB2 /* Integer To Roman */,
 				8A9688C32D9ABFDF00B3B049 /* Even Or Odd */,
+				8AB4B5CF2D9B537D0051D6DA /* Assiut University Training - Newcomers */,
+				8AB4B5DA2D9B55F70051D6DA /* Assiut University Training - Newcomers C++ */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB4B5DB2D9B55F80051D6DA /* Assiut University Training - Newcomers C++ */ = {
+			isa = PBXGroup;
+			children = (
+				8AB4B5DC2D9B55F80051D6DA /* main.cpp */,
+			);
+			path = "Assiut University Training - Newcomers C++";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -493,6 +540,40 @@
 			productReference = 8AA2ADB12D940BD100CDCECC /* Problem-solving */;
 			productType = "com.apple.product-type.tool";
 		};
+		8AB4B5CE2D9B537D0051D6DA /* Assiut University Training - Newcomers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB4B5D52D9B537E0051D6DA /* Build configuration list for PBXNativeTarget "Assiut University Training - Newcomers" */;
+			buildPhases = (
+				8AB4B5CB2D9B537D0051D6DA /* Sources */,
+				8AB4B5CC2D9B537D0051D6DA /* Frameworks */,
+				8AB4B5CD2D9B537D0051D6DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assiut University Training - Newcomers";
+			productName = "Assiut University Training - Newcomers";
+			productReference = 8AB4B5CF2D9B537D0051D6DA /* Assiut University Training - Newcomers */;
+			productType = "com.apple.product-type.tool";
+		};
+		8AB4B5D92D9B55F70051D6DA /* Assiut University Training - Newcomers C++ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB4B5DE2D9B55F80051D6DA /* Build configuration list for PBXNativeTarget "Assiut University Training - Newcomers C++" */;
+			buildPhases = (
+				8AB4B5D62D9B55F70051D6DA /* Sources */,
+				8AB4B5D72D9B55F70051D6DA /* Frameworks */,
+				8AB4B5D82D9B55F70051D6DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assiut University Training - Newcomers C++";
+			productName = "Assiut University Training - Newcomers C++";
+			productReference = 8AB4B5DA2D9B55F70051D6DA /* Assiut University Training - Newcomers C++ */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -532,6 +613,12 @@
 					8AA2ADB02D940BD100CDCECC = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
+					8AB4B5CE2D9B537D0051D6DA = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8AB4B5D92D9B55F70051D6DA = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 8AA2ADAC2D940BD100CDCECC /* Build configuration list for PBXProject "Problem-solving" */;
@@ -557,6 +644,8 @@
 				8A980EA92D97609F00BFFBB2 /* Sieve of Eratosthenes */,
 				8A980EB42D97C2ED00BFFBB2 /* Integer To Roman */,
 				8A9688C22D9ABFDF00B3B049 /* Even Or Odd */,
+				8AB4B5CE2D9B537D0051D6DA /* Assiut University Training - Newcomers */,
+				8AB4B5D92D9B55F70051D6DA /* Assiut University Training - Newcomers C++ */,
 			);
 		};
 /* End PBXProject section */
@@ -640,6 +729,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB4B5CB2D9B537D0051D6DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB4B5D62D9B55F70051D6DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB4B5DD2D9B55F80051D6DA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -921,6 +1025,38 @@
 			};
 			name = Release;
 		};
+		8AB4B5D32D9B537E0051D6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AB4B5D42D9B537E0051D6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8AB4B5DF2D9B55F80051D6DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AB4B5E02D9B55F80051D6DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1019,6 +1155,24 @@
 			buildConfigurations = (
 				8AA2ADB92D940BD100CDCECC /* Debug */,
 				8AA2ADBA2D940BD100CDCECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB4B5D52D9B537E0051D6DA /* Build configuration list for PBXNativeTarget "Assiut University Training - Newcomers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB4B5D32D9B537E0051D6DA /* Debug */,
+				8AB4B5D42D9B537E0051D6DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB4B5DE2D9B55F80051D6DA /* Build configuration list for PBXNativeTarget "Assiut University Training - Newcomers C++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB4B5DF2D9B55F80051D6DA /* Debug */,
+				8AB4B5E02D9B55F80051D6DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
