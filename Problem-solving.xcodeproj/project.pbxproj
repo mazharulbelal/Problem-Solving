@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A6031422D940C9C0072FE9F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A6031412D940C9C0072FE9F /* main.c */; };
 		8A7295972D99B76B0066DE5D /* LeetCode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A7295962D99B76B0066DE5D /* LeetCode.c */; };
+		8A9688C62D9ABFDF00B3B049 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9688C52D9ABFDF00B3B049 /* main.c */; };
 		8A97BD652D974B5A00EA5510 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A97BD642D974B5A00EA5510 /* main.c */; };
 		8A980EAD2D97609F00BFFBB2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A980EAC2D97609F00BFFBB2 /* main.c */; };
 		8A980EB82D97C2ED00BFFBB2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A980EB72D97C2ED00BFFBB2 /* main.c */; };
@@ -21,6 +22,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8A60313D2D940C9C0072FE9F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8A9688C12D9ABFDF00B3B049 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -108,6 +118,8 @@
 		8A6031412D940C9C0072FE9F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8A7295952D99B76B0066DE5D /* LeetCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode.h; sourceTree = "<group>"; };
 		8A7295962D99B76B0066DE5D /* LeetCode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCode.c; sourceTree = "<group>"; };
+		8A9688C32D9ABFDF00B3B049 /* Even Or Odd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Even Or Odd"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9688C52D9ABFDF00B3B049 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8A97BD622D974B5A00EA5510 /* GCD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GCD; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A97BD642D974B5A00EA5510 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8A980EAA2D97609F00BFFBB2 /* Sieve of Eratosthenes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sieve of Eratosthenes"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +140,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8A60313C2D940C9C0072FE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9688C02D9ABFDF00B3B049 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -201,6 +220,14 @@
 			path = DecimalToBinary;
 			sourceTree = "<group>";
 		};
+		8A9688C42D9ABFDF00B3B049 /* Even Or Odd */ = {
+			isa = PBXGroup;
+			children = (
+				8A9688C52D9ABFDF00B3B049 /* main.c */,
+			);
+			path = "Even Or Odd";
+			sourceTree = "<group>";
+		};
 		8A97BD632D974B5A00EA5510 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +298,7 @@
 				8A97BD632D974B5A00EA5510 /* GCD */,
 				8A980EAB2D97609F00BFFBB2 /* Sieve of Eratosthenes */,
 				8A980EB62D97C2ED00BFFBB2 /* Integer To Roman */,
+				8A9688C42D9ABFDF00B3B049 /* Even Or Odd */,
 				8AA2ADB22D940BD100CDCECC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -287,6 +315,7 @@
 				8A97BD622D974B5A00EA5510 /* GCD */,
 				8A980EAA2D97609F00BFFBB2 /* Sieve of Eratosthenes */,
 				8A980EB52D97C2ED00BFFBB2 /* Integer To Roman */,
+				8A9688C32D9ABFDF00B3B049 /* Even Or Odd */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,6 +338,23 @@
 			name = BinaryToDecimal;
 			productName = BinaryToDecimal;
 			productReference = 8A60313F2D940C9C0072FE9F /* BinaryToDecimal */;
+			productType = "com.apple.product-type.tool";
+		};
+		8A9688C22D9ABFDF00B3B049 /* Even Or Odd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A9688C92D9ABFDF00B3B049 /* Build configuration list for PBXNativeTarget "Even Or Odd" */;
+			buildPhases = (
+				8A9688BF2D9ABFDF00B3B049 /* Sources */,
+				8A9688C02D9ABFDF00B3B049 /* Frameworks */,
+				8A9688C12D9ABFDF00B3B049 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Even Or Odd";
+			productName = "Even Or Odd";
+			productReference = 8A9688C32D9ABFDF00B3B049 /* Even Or Odd */;
 			productType = "com.apple.product-type.tool";
 		};
 		8A97BD612D974B5A00EA5510 /* GCD */ = {
@@ -459,6 +505,9 @@
 					8A60313E2D940C9C0072FE9F = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
+					8A9688C22D9ABFDF00B3B049 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 					8A97BD612D974B5A00EA5510 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -507,6 +556,7 @@
 				8A97BD612D974B5A00EA5510 /* GCD */,
 				8A980EA92D97609F00BFFBB2 /* Sieve of Eratosthenes */,
 				8A980EB42D97C2ED00BFFBB2 /* Integer To Roman */,
+				8A9688C22D9ABFDF00B3B049 /* Even Or Odd */,
 			);
 		};
 /* End PBXProject section */
@@ -517,6 +567,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A6031422D940C9C0072FE9F /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A9688BF2D9ABFDF00B3B049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9688C62D9ABFDF00B3B049 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +655,22 @@
 			name = Debug;
 		};
 		8A6031452D940C9C0072FE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A9688C72D9ABFDF00B3B049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A9688C82D9ABFDF00B3B049 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -855,6 +929,15 @@
 			buildConfigurations = (
 				8A6031442D940C9C0072FE9F /* Debug */,
 				8A6031452D940C9C0072FE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A9688C92D9ABFDF00B3B049 /* Build configuration list for PBXNativeTarget "Even Or Odd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9688C72D9ABFDF00B3B049 /* Debug */,
+				8A9688C82D9ABFDF00B3B049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
