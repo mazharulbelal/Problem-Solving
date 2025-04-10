@@ -123,29 +123,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8A60313F2D940C9C0072FE9F /* BinaryToDecimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryToDecimal; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6031412D940C9C0072FE9F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8A7295952D99B76B0066DE5D /* LeetCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode.h; sourceTree = "<group>"; };
 		8A7295962D99B76B0066DE5D /* LeetCode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCode.c; sourceTree = "<group>"; };
-		8A9688C32D9ABFDF00B3B049 /* Even Or Odd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Even Or Odd"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9688C52D9ABFDF00B3B049 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		8A97BD622D974B5A00EA5510 /* GCD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GCD; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A97BD642D974B5A00EA5510 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		8A980EAA2D97609F00BFFBB2 /* Sieve of Eratosthenes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sieve of Eratosthenes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A980EAC2D97609F00BFFBB2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		8A980EB52D97C2ED00BFFBB2 /* Integer To Roman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Integer To Roman"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A980EB72D97C2ED00BFFBB2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		8A9A25D22D943BCF0056BA18 /* Binary To Decimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary To Decimal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9A25D42D943BCF0056BA18 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		8A9BDA5F2D94DEB3006D5B57 /* ReverseNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReverseNumber; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9BDA612D94DEB3006D5B57 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		8A9D2A1A2D95A1070025260B /* Prime Number Check */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Prime Number Check"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9D2A1C2D95A1070025260B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		8A9E81032D9665290012840E /* Roman To Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Roman To Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9E81052D9665290012840E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8A9E810B2D96BD6B0012840E /* Leetcode Solution.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Leetcode Solution.c"; sourceTree = "<group>"; };
-		8AA2ADB12D940BD100CDCECC /* Problem-solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem-solving"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94F0628D2D9BC37400B3BE51 /* Assiut University Training - Newcomers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assiut University Training - Newcomers"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C7E492DA13DCB001FEC12 /* Problem-solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem-solving"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C7E4A2DA13DCB001FEC12 /* BinaryToDecimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryToDecimal; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C7E4B2DA13DCB001FEC12 /* Binary To Decimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary To Decimal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C7E4C2DA13DCB001FEC12 /* ReverseNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReverseNumber; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C7E4D2DA13DCB001FEC12 /* Prime Number Check */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Prime Number Check"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C7E4E2DA13DCB001FEC12 /* Roman To Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Roman To Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C7E4F2DA13DCB001FEC12 /* GCD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GCD; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C7E502DA13DCB001FEC12 /* Sieve of Eratosthenes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sieve of Eratosthenes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C7E512DA13DCB001FEC12 /* Integer To Roman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Integer To Roman"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C7E522DA13DCB001FEC12 /* Even Or Odd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Even Or Odd"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C7E532DA13DCB001FEC12 /* Assiut University Training - Newcomers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assiut University Training - Newcomers"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -321,26 +321,18 @@
 				8A980EB62D97C2ED00BFFBB2 /* Integer To Roman */,
 				8A9688C42D9ABFDF00B3B049 /* Even Or Odd */,
 				94F0628E2D9BC37400B3BE51 /* Assiut University Training - Newcomers */,
-				8AA2ADB22D940BD100CDCECC /* Products */,
+				940C7E492DA13DCB001FEC12 /* Problem-solving */,
+				940C7E4A2DA13DCB001FEC12 /* BinaryToDecimal */,
+				940C7E4B2DA13DCB001FEC12 /* Binary To Decimal */,
+				940C7E4C2DA13DCB001FEC12 /* ReverseNumber */,
+				940C7E4D2DA13DCB001FEC12 /* Prime Number Check */,
+				940C7E4E2DA13DCB001FEC12 /* Roman To Integer */,
+				940C7E4F2DA13DCB001FEC12 /* GCD */,
+				940C7E502DA13DCB001FEC12 /* Sieve of Eratosthenes */,
+				940C7E512DA13DCB001FEC12 /* Integer To Roman */,
+				940C7E522DA13DCB001FEC12 /* Even Or Odd */,
+				940C7E532DA13DCB001FEC12 /* Assiut University Training - Newcomers */,
 			);
-			sourceTree = "<group>";
-		};
-		8AA2ADB22D940BD100CDCECC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8AA2ADB12D940BD100CDCECC /* Problem-solving */,
-				8A60313F2D940C9C0072FE9F /* BinaryToDecimal */,
-				8A9A25D22D943BCF0056BA18 /* Binary To Decimal */,
-				8A9BDA5F2D94DEB3006D5B57 /* ReverseNumber */,
-				8A9D2A1A2D95A1070025260B /* Prime Number Check */,
-				8A9E81032D9665290012840E /* Roman To Integer */,
-				8A97BD622D974B5A00EA5510 /* GCD */,
-				8A980EAA2D97609F00BFFBB2 /* Sieve of Eratosthenes */,
-				8A980EB52D97C2ED00BFFBB2 /* Integer To Roman */,
-				8A9688C32D9ABFDF00B3B049 /* Even Or Odd */,
-				94F0628D2D9BC37400B3BE51 /* Assiut University Training - Newcomers */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,7 +352,7 @@
 			);
 			name = BinaryToDecimal;
 			productName = BinaryToDecimal;
-			productReference = 8A60313F2D940C9C0072FE9F /* BinaryToDecimal */;
+			productReference = 940C7E4A2DA13DCB001FEC12 /* BinaryToDecimal */;
 			productType = "com.apple.product-type.tool";
 		};
 		8A9688C22D9ABFDF00B3B049 /* Even Or Odd */ = {
@@ -377,7 +369,7 @@
 			);
 			name = "Even Or Odd";
 			productName = "Even Or Odd";
-			productReference = 8A9688C32D9ABFDF00B3B049 /* Even Or Odd */;
+			productReference = 940C7E522DA13DCB001FEC12 /* Even Or Odd */;
 			productType = "com.apple.product-type.tool";
 		};
 		8A97BD612D974B5A00EA5510 /* GCD */ = {
@@ -394,7 +386,7 @@
 			);
 			name = GCD;
 			productName = GCD;
-			productReference = 8A97BD622D974B5A00EA5510 /* GCD */;
+			productReference = 940C7E4F2DA13DCB001FEC12 /* GCD */;
 			productType = "com.apple.product-type.tool";
 		};
 		8A980EA92D97609F00BFFBB2 /* Sieve of Eratosthenes */ = {
@@ -411,7 +403,7 @@
 			);
 			name = "Sieve of Eratosthenes";
 			productName = "Sieve of Eratosthenes";
-			productReference = 8A980EAA2D97609F00BFFBB2 /* Sieve of Eratosthenes */;
+			productReference = 940C7E502DA13DCB001FEC12 /* Sieve of Eratosthenes */;
 			productType = "com.apple.product-type.tool";
 		};
 		8A980EB42D97C2ED00BFFBB2 /* Integer To Roman */ = {
@@ -428,7 +420,7 @@
 			);
 			name = "Integer To Roman";
 			productName = "Integer To Roman";
-			productReference = 8A980EB52D97C2ED00BFFBB2 /* Integer To Roman */;
+			productReference = 940C7E512DA13DCB001FEC12 /* Integer To Roman */;
 			productType = "com.apple.product-type.tool";
 		};
 		8A9A25D12D943BCF0056BA18 /* Binary To Decimal */ = {
@@ -445,7 +437,7 @@
 			);
 			name = "Binary To Decimal";
 			productName = "Binary To Decimal";
-			productReference = 8A9A25D22D943BCF0056BA18 /* Binary To Decimal */;
+			productReference = 940C7E4B2DA13DCB001FEC12 /* Binary To Decimal */;
 			productType = "com.apple.product-type.tool";
 		};
 		8A9BDA5E2D94DEB3006D5B57 /* ReverseNumber */ = {
@@ -462,7 +454,7 @@
 			);
 			name = ReverseNumber;
 			productName = ReverseNumber;
-			productReference = 8A9BDA5F2D94DEB3006D5B57 /* ReverseNumber */;
+			productReference = 940C7E4C2DA13DCB001FEC12 /* ReverseNumber */;
 			productType = "com.apple.product-type.tool";
 		};
 		8A9D2A192D95A1070025260B /* Prime Number Check */ = {
@@ -479,7 +471,7 @@
 			);
 			name = "Prime Number Check";
 			productName = "Prime Number Check";
-			productReference = 8A9D2A1A2D95A1070025260B /* Prime Number Check */;
+			productReference = 940C7E4D2DA13DCB001FEC12 /* Prime Number Check */;
 			productType = "com.apple.product-type.tool";
 		};
 		8A9E81022D9665290012840E /* Roman To Integer */ = {
@@ -496,7 +488,7 @@
 			);
 			name = "Roman To Integer";
 			productName = "Roman To Integer";
-			productReference = 8A9E81032D9665290012840E /* Roman To Integer */;
+			productReference = 940C7E4E2DA13DCB001FEC12 /* Roman To Integer */;
 			productType = "com.apple.product-type.tool";
 		};
 		8AA2ADB02D940BD100CDCECC /* Problem-solving */ = {
@@ -513,7 +505,7 @@
 			);
 			name = "Problem-solving";
 			productName = "Problem-solving";
-			productReference = 8AA2ADB12D940BD100CDCECC /* Problem-solving */;
+			productReference = 940C7E492DA13DCB001FEC12 /* Problem-solving */;
 			productType = "com.apple.product-type.tool";
 		};
 		94F0628C2D9BC37400B3BE51 /* Assiut University Training - Newcomers */ = {
@@ -535,7 +527,7 @@
 			packageProductDependencies = (
 			);
 			productName = "Assiut University Training - Newcomers";
-			productReference = 94F0628D2D9BC37400B3BE51 /* Assiut University Training - Newcomers */;
+			productReference = 940C7E532DA13DCB001FEC12 /* Assiut University Training - Newcomers */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -579,6 +571,7 @@
 					};
 					94F0628C2D9BC37400B3BE51 = {
 						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
 					};
 				};
 			};
@@ -591,7 +584,7 @@
 				Base,
 			);
 			mainGroup = 8AA2ADA82D940BD100CDCECC;
-			productRefGroup = 8AA2ADB22D940BD100CDCECC /* Products */;
+			productRefGroup = 8AA2ADA82D940BD100CDCECC;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -980,22 +973,27 @@
 		94F062922D9BC37400B3BE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8L7D25KA3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		94F062932D9BC37400B3BE51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F8L7D25KA3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
