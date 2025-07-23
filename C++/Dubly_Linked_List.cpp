@@ -81,7 +81,6 @@ void delete_head(Node * &head)
     head = head->next;
     head->pre = NULL;
     delete temp;
-    
 }
 
 void add_Any_Position(Node * &head, Node * tail, int value, int index)
